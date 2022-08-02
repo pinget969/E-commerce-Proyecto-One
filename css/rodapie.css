@@ -1,0 +1,25 @@
+
+.contenedor_rodapie{
+    display: flex;
+    background-color: #ebebeb;
+    width: 100%;
+    justify-content: center;
+    padding: 30px 0px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.contenedor_rodapie-izquierda{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.contenedor_rodapie-derecha{
+    width: 50%;
+}
+.contenedor-form_rodapie{
+    width: 100%;
+    
+}
+
+
