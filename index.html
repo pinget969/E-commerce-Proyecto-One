@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-commerce</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu-productos.css">
+    <link rel="stylesheet" href="css/productos.css">
     
     <!-- 
 Título de su sitio web
@@ -20,39 +24,69 @@ Rodapié
 </head>
 <body>
     <header>
-        
-        <ul>
-            <li>Login</li> <!--Botón de inicio de sesión-->
-            <input type="search" placeholder="Buscar">
-            <li>Inicio</li>
-            <li>Productos</li> 
-            <li>Ofertas</li>
-            <li>Carrito</li> <!--Icono carrito-->
-        </ul>
-        <img src="img/group-portrait-of-adorable-puppies.jpg" alt="Imagen de perros estilo banner"  > <!--<a href='https://www.freepik.es/fotos/perro-cachorro'>Foto de perro cachorro creado por rawpixel.com - www.freepik.es</a>-->
-    </header>
+
+        <div class="contenedor-header">
+            <img class="logo-alura" src="img/Logo.png" alt="Logo-Alura-Geek">
+            <ul class="contenedor-lista-header">
+                <li><button class="btn-login">Login</button> <!--Botón de inicio de sesión--></li>
+                <li class="li-search_header"><input type="search" placeholder="¿Qué desea buscar?"></li>
+                <li> <a href="">Productos</a></li> 
+                <li class="oferta"><a href="">Oferta</a></li>
+                <li><a href="">Carrito</a></li> <!--Icono carrito-->
+            </ul>
+        </div>
+        <div class="contenedor-img-header">
+            <img class="img-header" src="img/group-portrait-of-adorable-puppies.jpg" alt="Imagen de perros estilo banner"  > <!--<a href='https://www.freepik.es/fotos/perro-cachorro'>Foto de perro cachorro creado por rawpixel.com - www.freepik.es</a>-->
+    
+        </div>
+</header>
     <section class="menu-productos">
-        <div>
-            <ul>
+        <div class="contenedor-menu">
+            <ul class="contenedor-lista-menu">
                 <li>Tipo</li>
                 <li>Precio</li> <!-- Desde hasta-->
                 <li>Order por</li> <!--Menor, mayor precio, popularidad-->
             </ul>
-        </div>
-        <div>
-            g - l
-            <!--iconos estilo grilla / lista-->
+            <div>
+                g - l
+                <!--iconos estilo grilla / lista-->
+            </div>
         </div>
         
+        
     </section>
-    <section class="contenedor-productos">
-
-        <div>
-            <img src="img/producto-gallina.jpg" alt="">
-            <img src="img/producto-lanza pelotas.jpg" alt="">
-            <img src="img/producto-soga.jpg" alt="">
+    <section class="contenedor-todos-productos">
+        <h1>PELOTAS</h1>
+        <div class="contenedor-pelotas-productos">
+            <div class="contenedor-productos">
+                <img class="img-productos" src="img/producto-pelota2.jpg" alt="imagen-soga">
+                <p class="texto-productos">Soga con pelota</p>
+                <p class="precio-productos">$850</p>
+                <a class="ver-producto" href="">ver producto</a>
+            </div>
+            <div class="contenedor-productos">
+                <img class="img-productos" src="img/producto-lanza pelotas.jpg" alt="">
+                <p class="texto-productos">Lanza pelota</p>
+                <p class="precio-productos">$850</p>
+                <a class="ver-producto" href="">ver producto</a>
+            </div>
+            <div class="contenedor-productos">
+                <img class="img-productos" src="img/producto-gallina.jpg" alt="">
+                <p class="texto-productos">Gallina con chifle</p>
+                <p class="precio-productos">$850</p>
+                <a class="ver-producto" href="">ver producto</a>
+            </div>
+            <div class="contenedor-productos">
+                <img class="img-productos" src="img/producto-gallina.jpg" alt="">
+                <p class="texto-productos">Gallina con chifle</p>
+                <p class="precio-productos">$850</p>
+                <a class="ver-producto" href="">ver producto</a>
+            </div>
         </div>
     </section>
+
+
+
     <section class="contenedor-contacto">
         <div>
             <h2>contacto</h2>

@@ -1,0 +1,12 @@
+.contenedor-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid;
+}
+.contenedor-lista-menu{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
