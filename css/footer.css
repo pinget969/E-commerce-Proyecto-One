@@ -1,6 +1,9 @@
+.contenedor_footer{
+    padding: 10px 0px 0px 0px;
+}
 .titulo-footer, .fecha-footer{
     text-decoration: none;
-    color: rgb(32, 32, 32);
+    color: rgba(129, 129, 129, 0.884);
     padding: 0px 3px;
     font-size: 12px;
     justify-content: center;
