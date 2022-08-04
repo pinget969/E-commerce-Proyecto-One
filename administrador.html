@@ -24,7 +24,10 @@
                 <input type="number" placeholder="Precio">
                 <input type="text" placeholder="Descripción">
                 <button class="btn-administrador_form" type="submit">Agregar Producto</button>
+                
+                
             </form>
+            
         <div class="contenedor">
             <!--PRODUCTO Nº 1-->
             <div class="contenedor-producto">
@@ -39,9 +42,16 @@
                 <div class="contenedor-precio-producto"> 
                     <p>$9999</p>
                 </div>
+                <div class="contenedor-cerrar_form-administrador">
+                    <button id="cerrar_admin" type="button" class="cerrar_form-administrador" onclick="cerrar_admin(this)">cerrar</button>
+                </div>
             </div>
         </div>
+
+        
     </div>
+    
     </section>
+    <script src="javaScript/administrador.js"></script>
 </body>
 </html>

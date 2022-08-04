@@ -1,6 +1,8 @@
 
 .contenedor-usuario_modaal, .contenedor-pass_modaal{
     margin: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .btn_login_cerrar, .btn_login_entrar{
@@ -39,6 +41,24 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
+}
+
+.usuario_incorrecto{
+    display: flex;
+    display: none;
+    
+}
+.usuario_correcto{
+    display: flex;
+    color: rgb(235, 31, 31);
+}
+.contraseña_incorrecta{
+    display: flex;
+    display: none;
+}
+.contraseña_correcta{
+    display: flex;
+    color: rgb(235, 31, 31);
 }
 /* Como Administrador */
 .cerrar_sesion{

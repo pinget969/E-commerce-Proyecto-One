@@ -22,8 +22,25 @@
     justify-content: center;
     background-color: #2A7AE4;
     color: #c7c7c7; 
-    
+    cursor: pointer;
     margin: 8px;
     font-size: 28px;
     border: 1px;
 }
+.contenedor-cerrar_form-administrador{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0px;
+    
+}
+.cerrar_form-administrador{
+    /* font-size: 19px; */
+    background-color: rgb(228 42 42);
+    color: rgb(219 219 219);
+    border-radius: 5px;
+    font-size: 28px;
+    border: 1px;
+    cursor: pointer;
+
+}
+

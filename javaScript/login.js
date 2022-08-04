@@ -27,13 +27,22 @@ function ingresar(){
     const li_cerrar_sesion = document.getElementById('cerrar_sesion');
     const li_new_producto = document.getElementById('new_producto')
     
+    const usuario_incorrecto = document.getElementById('usuario-incorrecta_span');
+    const contraseña_incorrecta =document.getElementById('contraseña-incorrecta_span');
+
     if(usuario.value != usuario_0){
-        alert("Usuario incorrecto");  
+        usuario_incorrecto.classList.replace('usuario_incorrecto', 'usuario_correcto'); 
+    }else{
+        usuario_incorrecto.classList.replace('usuario_correcto', 'usuario_incorrecto');
     };
     if(contraseña.value != contraseña_0){
-        alert("Contraseña Incorrecta");
+        contraseña_incorrecta.classList.replace('contraseña_incorrecta','contraseña_correcta');
+    }else{
+        contraseña_incorrecta.classList.replace('contraseña_correcta','contraseña_incorrecta');
     };
     if(usuario.value== usuario_0 && contraseña.value==contraseña_0){
+        usuario_incorrecto.classList.replace('usuario_correcto', 'usuario_incorrecto');
+        contraseña_incorrecta.classList.replace('contraseña_correcta','contraseña_incorrecta');
         alert("ingreso correcto");
         modal_container.classList.remove('show');
         open.classList.add('btn-login-none');
@@ -52,6 +61,8 @@ function ingresar(){
     } 
     
 };
+
+// HACIA ADMINISTRADOR
 function menu_agregar_producto(){
     location.href = "administrador.html";
 }
