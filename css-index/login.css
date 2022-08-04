@@ -1,0 +1,69 @@
+
+.contenedor-usuario_modaal, .contenedor-pass_modaal{
+    margin: 15px;
+}
+
+.btn_login_cerrar, .btn_login_entrar{
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+.modal-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;  
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+}
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+.modaal {
+    background-color: #fff;
+    width: 30%;
+    max-width: 100%;
+
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+/* Como Administrador */
+.cerrar_sesion{
+    display: none;
+}
+.new_producto{
+    display: none;
+}
+.new_producto_show{
+    text-decoration: none;
+    border: 1px solid rgba(50, 50, 50, 0.2);
+    border-radius: 10px;
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+    padding: 0.6rem 0.8rem;
+    box-shadow: rgb(0 120 180) 0px 0px 3px 0px;
+}
+.cerrar_sesion_show{
+    text-decoration: none;
+    border: 1px solid rgba(50, 50, 50, 0.2);
+    border-radius: 10px;
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+    padding: 0.6rem 0.8rem;
+    box-shadow: rgb(221, 0, 0) 0px 0px 3px 0px;
+    
+}
+

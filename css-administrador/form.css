@@ -1,0 +1,29 @@
+.contenedor_form-input-agregar-producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-input-agregar-producto{
+    display: flex;
+    flex-direction: column;
+}
+.titulo-form-input-agregar-producto{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.form-input-agregar-producto input{
+    margin: 8px;
+    font-size: 28px;
+}
+.btn-administrador_form{
+    display: flex;
+    justify-content: center;
+    background-color: #2A7AE4;
+    color: #c7c7c7; 
+    
+    margin: 8px;
+    font-size: 28px;
+    border: 1px;
+}

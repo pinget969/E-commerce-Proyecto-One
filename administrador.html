@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-administrador/reset.css">
+    <link rel="stylesheet" href="css-administrador/form.css">
+    <link rel="stylesheet" href="css-administrador/style.css">
+    <link rel="stylesheet" href="css-administrador/new-producto.css">
+    <title>Menu Administrador</title>
+</head>
+<body class="body_administrador">
+    <section>
+        <h1 class="titulo-form-input-agregar-producto">Agragar nuevo producto</h1>
+        <div class="contenedor_form-input-agregar-producto">
+            
+            <form class="form-input-agregar-producto" action="" enctype="multipart/form-data"> 
+                
+                <input class="input-img_form" type="file" name="subir imagen" accept="image/png, .jpeg, .jpg">
+                <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"required>
+                <input type="text" placeholder="Categoria">
+                <input class="input-nombre_form" type="text" placeholder="Nombre del producto">
+                <input type="number" placeholder="Precio">
+                <input type="text" placeholder="Descripción">
+                <button class="btn-administrador_form" type="submit">Agregar Producto</button>
+            </form>
+        <div class="contenedor">
+            <!--PRODUCTO Nº 1-->
+            <div class="contenedor-producto">
+                <div class="producto-ind">
+                    <img src="img/iconos-logos/picture_photo_image_icon_131252.png" alt="">
+                    <p>Ver producto</p>
+                    
+                </div>
+                <div class="contenedor-nombre-producto"> 
+                    <p>Nombre Producto</p>
+                </div>
+                <div class="contenedor-precio-producto"> 
+                    <p>$9999</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
