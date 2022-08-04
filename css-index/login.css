@@ -47,6 +47,9 @@
 .new_producto{
     display: none;
 }
+.btn-login-none{
+    display: none;
+}
 .new_producto_show{
     text-decoration: none;
     border: 1px solid rgba(50, 50, 50, 0.2);

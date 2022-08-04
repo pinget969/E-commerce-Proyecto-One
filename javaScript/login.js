@@ -36,7 +36,8 @@ function ingresar(){
     if(usuario.value== usuario_0 && contraseña.value==contraseña_0){
         alert("ingreso correcto");
         modal_container.classList.remove('show');
-        document.getElementById('open').style.display = "none";
+        open.classList.add('btn-login-none');
+
         var cerrar_sesion = "Cerrar Sesion";
         var new_producto = "Agregar Producto";
 
@@ -54,5 +55,13 @@ function ingresar(){
 function menu_agregar_producto(){
     location.href = "administrador.html";
 }
+function cerrar_sesicion_login(){
+    const li_cerrar_sesion = document.getElementById('cerrar_sesion');
+    const li_new_producto = document.getElementById('new_producto')
 
+    li_cerrar_sesion.classList.toggle('cerrar_sesion');
+    li_new_producto.classList.toggle('new_producto');
+
+    open.classList.toggle('btn-login-none');
+};
 
