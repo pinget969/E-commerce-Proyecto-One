@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css-index/rodapie.css">
     <link rel="stylesheet" href="css-index/footer.css">
     <link rel="stylesheet" href="css-index/login.css">
+    <link rel="stylesheet" href="css-index/filtro.css">
+    <link rel="stylesheet" href="css-responsive/index-resp.css">
     <!-- 
 Título de su sitio web
     Menú principal
@@ -46,7 +48,7 @@ Rodapié
             
             <div class="texto-promocion_header"> <!--Promoción en el Banner-->
                 <h1>Invierno promocional</h1>
-                <p>Productos seleccionados 31% de descuento!</p>
+                <div class="contenedor_promocion-header"><p class="promocion_header">Productos seleccionados 31% de descuento!</p></div>
                 <!--<a class="vinculo-promocion_header" href="">Mirá los productos aquí</a> -->
                 <button class="vinculo-promocion_header"> Ver Productos</button>
             </div>
@@ -79,33 +81,33 @@ Rodapié
             </div>
         </div>
 </header>
-<section>
-    <!-- AGREGAR BANNER AQUÍ?-->
-</section>
+<!-- 
     <section class="menu-productos">
         <div class="contenedor-menu">
             <ul class="contenedor-lista-menu">
                 <li>Tipo</li>
-                <li>Precio</li> <!-- Desde hasta-->
-                <li>Order por</li> <!--Menor, mayor precio, popularidad-->
+                <li>Precio</li>  
+                <li>Order por</li>  
             </ul>
-            <div>
-                g - l
-                <!--iconos estilo grilla / lista-->
+            <div id="contenedor_g-l">
+
+                <img id="menu-logo" class="img_menu" src="img/iconos-logos/menu.png" onclick="cambiar_menu(this)" alt=""> "https://www.flaticon.es/iconos-gratis/ui"
+                <img id="lista_logo" class="img_lista" src="img/iconos-logos/lista.png" alt=""> "https://www.flaticon.es/iconos-gratis/ui"
+                
             </div>
         </div>
-        
+
         
     </section>
-    
+    -->
 
 
     <!-- PRODUCTO Peluches-->
     <section >
         <h1 class="titulo_producto">Peluches</h1>
-        <div class="contenedor">
+        <div id="contenedor" class="contenedor">
             <!--PRODUCTO Nº 1-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-pato2.jpg" alt="">
                     <p>Ver producto</p>
@@ -120,7 +122,7 @@ Rodapié
             </div>
 
             <!--PRODUCTO Nº 2-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-mapache.jpg" alt="">
                     <p>Ver producto</p>
@@ -134,7 +136,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 3-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-leon.jpg" alt="">
                     <p>Ver producto</p>
@@ -148,7 +150,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 4-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-oso.jpg" alt="">
                     <p>Ver producto</p>
@@ -162,7 +164,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 5-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-pulpo.jpg" alt="">
                     <p>Ver producto</p>
@@ -176,7 +178,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 6-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-sapo.jpg" alt="">
                     <p>Ver producto</p>
@@ -196,7 +198,7 @@ Rodapié
         <h1 class="titulo_producto">Pelotas</h1>
         <div class="contenedor">
             <!--PRODUCTO Nº 1-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-pelota1.jpg" alt="">
                     <p>Ver producto</p>
@@ -210,7 +212,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 2-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-pelota2.jpg" alt="">
                     <p>Ver producto</p>
@@ -224,7 +226,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 3-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-pelota3.jpg" alt="">
                     <p>Ver producto</p>
@@ -238,7 +240,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 4-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-pelota4.jpg" alt="">
                     <p>Ver producto</p>
@@ -252,7 +254,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 5-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-pelota6.png" alt="">
                     <p>Ver producto</p>
@@ -266,7 +268,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 6-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/producto-pelota7.jpg" alt="">
                     <p>Ver producto</p>
@@ -286,7 +288,7 @@ Rodapié
         <h1 class="titulo_producto">Chalecos</h1>
         <div class="contenedor">
             <!--PRODUCTO Nº 1-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/buzo/buzo_1.png" alt="">
                     <p>Ver producto</p>
@@ -300,7 +302,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 2-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/buzo/buzo_2.png" alt="">
                     <p>Ver producto</p>
@@ -314,7 +316,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 3-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/buzo/buzo_3.jpg" alt="">
                     <p>Ver producto</p>
@@ -328,7 +330,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 4-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/buzo/buzo_4.png" alt="">
                     <p>Ver producto</p>
@@ -342,7 +344,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 5-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/buzo/buzo_5.jpg" alt="">
                     <p>Ver producto</p>
@@ -356,7 +358,7 @@ Rodapié
                 </div>
             </div>
             <!--PRODUCTO Nº 6-->
-            <div class="contenedor-producto">
+            <div id="contenedor-producto" class="contenedor-producto">
                 <div class="producto-ind">
                     <img src="img/buzo/buzo_6.jpg" alt="">
                     <p>Ver producto</p>
@@ -376,7 +378,7 @@ Rodapié
     <h1 class="titulo_producto">Correas</h1>
     <div class="contenedor">
         <!--PRODUCTO Nº 1-->
-        <div class="contenedor-producto">
+        <div id="contenedor-producto" class="contenedor-producto">
             <div class="producto-ind">
                 <img src="img/correas/correa_1.png" alt="">
                 <p>Ver producto</p>
@@ -390,7 +392,7 @@ Rodapié
             </div>
         </div>
         <!--PRODUCTO Nº 2-->
-        <div class="contenedor-producto">
+        <div id="contenedor-producto" class="contenedor-producto">
             <div class="producto-ind">
                 <img src="img/correas/correa_2.png" alt="">
                 <p>Ver producto</p>
@@ -404,7 +406,7 @@ Rodapié
             </div>
         </div>
         <!--PRODUCTO Nº 3-->
-        <div class="contenedor-producto">
+        <div id="contenedor-producto" class="contenedor-producto">
             <div class="producto-ind">
                 <img src="img/correas/correa_3.png" alt="">
                 <p>Ver producto</p>
@@ -418,7 +420,7 @@ Rodapié
             </div>
         </div>
         <!--PRODUCTO Nº 4-->
-        <div class="contenedor-producto">
+        <div id="contenedor-producto" class="contenedor-producto">
             <div class="producto-ind">
                 <img src="img/correas/correa_4.png" alt="">
                 <p>Ver producto</p>
@@ -432,7 +434,7 @@ Rodapié
             </div>
         </div>
         <!--PRODUCTO Nº 5-->
-        <div class="contenedor-producto">
+        <div id="contenedor-producto" class="contenedor-producto">
             <div class="producto-ind">
                 <img src="img/correas/correa_5.png" alt="">
                 <p>Ver producto</p>
@@ -446,7 +448,7 @@ Rodapié
             </div>
         </div>
         <!--PRODUCTO Nº 6-->
-        <div class="contenedor-producto">
+        <div id="contenedor-producto" class="contenedor-producto">
             <div class="producto-ind">
                 <img src="img/correas/correa_6.png" alt="">
                 <p>Ver producto</p>
@@ -465,7 +467,7 @@ Rodapié
     <section>
         <div class="contenedor_rodapie">
             <div class="contenedor_rodapie-izquierda">
-                <div> <img src="img/Logo.png" alt=""></div>
+                <div class="contenedor-logo_rodapie"> <img class="img-logo_rodapie" src="img/Logo.png" alt="" ></div>
                 <div class="contenedor-texto_rodapie">
                     <p>Quienes somos</p>
                     <p>Política de privacidad</p>
@@ -507,5 +509,6 @@ Rodapié
         </div>
     </footer>
     <script src="javaScript/login.js"></script>
+    <script src="javaScript/filtro.js"></script>
 </body>
 </html>

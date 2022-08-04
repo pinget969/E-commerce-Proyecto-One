@@ -1,0 +1,44 @@
+@media (max-width: 780px) {
+    
+.texto-promocion_header{
+    margin: 0px;
+}
+.contenedor-header{
+    flex-direction: column;
+}
+.logo-alura{
+    margin: auto;
+}
+.contenedor-lista-header{
+    flex-direction: column;
+}
+.contenedor-lista-header{
+    margin: auto;
+}
+.contenedor-lista-header li {
+    padding: 10px;
+}
+.texto-promocion_header{
+    width: 90%;
+}
+.contenedor_promocion-header{
+    display: flex;
+}
+.promocion_header {
+    font-size: 14px;
+    background: #d6c8c882;
+    border-radius: 5px;
+}
+.contenedor_rodapie-izquierda {
+    display: inline;
+}
+.contenedor-texto_rodapie {
+    padding: 10px;
+}
+.contenedor-logo_rodapie {
+    width: 93%;
+}
+.img-logo_rodapie{
+    max-width: 100%;
+}
+}

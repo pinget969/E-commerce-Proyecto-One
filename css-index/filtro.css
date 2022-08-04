@@ -1,0 +1,29 @@
+/*
+.img_menu{
+    padding: 3px;
+}
+.img_lista{
+    padding: 3px;
+}
+
+.contenedor_menu{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-producto_menu{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    background: #b90d0d;
+    align-items: flex-start;
+}
+.producto-ind{
+    height: 100%;
+    width: 33%;
+}
+.contenedor-nombre-producto{
+    width: 30%;
+}
+.contenedor-precio-producto{
+    width: 15%;
+} */
