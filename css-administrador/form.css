@@ -44,4 +44,11 @@
     cursor: pointer;
     box-shadow: rgb(221, 0, 0) 0px 0px 6px 0px;
 }
+.contenedor-img_perrita_form{
+    display: flex;
+    justify-content: space-between;
 
+}
+.img-perrita_form{
+    width: 20%;
+}

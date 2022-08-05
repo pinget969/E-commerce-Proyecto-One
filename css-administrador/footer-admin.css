@@ -1,0 +1,13 @@
+.contenedor_footer{
+    align-items: flex-end;
+    display: flex;
+    height: 82%;
+}
+.titulo-footer, .fecha-footer{
+    text-decoration: none;
+    color: rgba(129, 129, 129, 0.884);
+    padding: 0px 3px;
+    font-size: 12px;
+    justify-content: center;
+    display: flex;
+}
