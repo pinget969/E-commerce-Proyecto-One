@@ -1,0 +1,9 @@
+@media (max-width:780px) {
+    
+    .form-input-agregar-producto{
+        width: 80%;
+    }
+    .titulo-form-input-agregar-producto{
+        text-align: center;
+    }
+}

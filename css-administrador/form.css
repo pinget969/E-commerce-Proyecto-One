@@ -26,6 +26,7 @@
     margin: 8px;
     font-size: 28px;
     border: 1px;
+    box-shadow: rgb(0 120 180) 0px 0px 4px 0px;
 }
 .contenedor-cerrar_form-administrador{
     display: flex;
@@ -36,11 +37,11 @@
 .cerrar_form-administrador{
     /* font-size: 19px; */
     background-color: rgb(228 42 42);
-    color: rgb(219 219 219);
+    color: white;
     border-radius: 5px;
     font-size: 28px;
     border: 1px;
     cursor: pointer;
-
+    box-shadow: rgb(221, 0, 0) 0px 0px 6px 0px;
 }
 

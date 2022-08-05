@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css-administrador/form.css">
     <link rel="stylesheet" href="css-administrador/style.css">
     <link rel="stylesheet" href="css-administrador/new-producto.css">
+    <link rel="stylesheet" href="css-responsive/admin-resp.css">
     <title>Menu Administrador</title>
 </head>
 <body class="body_administrador">
@@ -18,12 +19,12 @@
             <form class="form-input-agregar-producto" action="" enctype="multipart/form-data"> 
                 
                 <input class="input-img_form" type="file" name="subir imagen" accept="image/png, .jpeg, .jpg">
-                <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"required>
-                <input type="text" placeholder="Categoria">
-                <input class="input-nombre_form" type="text" placeholder="Nombre del producto">
-                <input type="number" placeholder="Precio">
-                <input type="text" placeholder="Descripción">
-                <button class="btn-administrador_form" type="submit">Agregar Producto</button>
+                <input class="input_producto" type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"required>
+                <input class="input_producto" type="text" placeholder="Categoria">
+                <input class="input-nombre_form input_producto" type="text" placeholder="Nombre del producto">
+                <input class="input_producto" type="number" placeholder="Precio">
+                <input class="input_producto" type="text" placeholder="Descripción">
+                <button class="btn-administrador_form input_producto" type="submit">Agregar Producto</button>
                 
                 
             </form>
@@ -43,7 +44,7 @@
                     <p>$9999</p>
                 </div>
                 <div class="contenedor-cerrar_form-administrador">
-                    <button id="cerrar_admin" type="button" class="cerrar_form-administrador" onclick="cerrar_admin(this)">cerrar</button>
+                    <button id="cerrar_admin" type="button" class="cerrar_form-administrador" onclick="cerrar_admin(this)">cancelar</button>
                 </div>
             </div>
         </div>
