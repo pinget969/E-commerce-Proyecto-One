@@ -21,7 +21,9 @@ close.addEventListener('click', () => {
 
 function ingresar(){
     const usuario = document.getElementById('usuario'); /* input usuario*/
+    const usuario_1 = document.getElementById('usuario').value;
     const contraseña = document.getElementById('contraseña');
+    const contraseña_1 = document.getElementById('contraseña').value;
     const open = document.getElementById('open');
 
     const li_cerrar_sesion = document.getElementById('cerrar_sesion');
@@ -58,9 +60,17 @@ function ingresar(){
 
         li_new_producto.classList.add('new_producto_show');
         li_cerrar_sesion.classList.add('cerrar_sesion_show');
-    } 
-    
+
+    } ;
+    //creacion objeto almacenador
+    const loginAlm = {
+        usuario_1,
+        contraseña_1
+    }
+    localStorage.setItem('login', JSON.stringify(loginAlm)); //almacenando Usuario y contraseña
 };
+
+
 
 // HACIA ADMINISTRADOR
 function menu_agregar_producto(){

@@ -21,37 +21,42 @@
         <div class="contenedor_form-input-agregar-producto">
             
             <form class="form-input-agregar-producto" action="" enctype="multipart/form-data"> 
-                
-                <input class="input-img_form" type="file" name="subir imagen" accept="image/png, .jpeg, .jpg">
-                <input class="input_producto" type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"required>
                 <input class="input_producto" type="text" placeholder="Categoria">
-                <input class="input-nombre_form input_producto" type="text" placeholder="Nombre del producto">
-                <input class="input_producto" type="number" placeholder="Precio">
+                
+                <input type="file" name="archivo" id="foto" onchange="vista_preliminar(event)">
+                
+                <input class="input_producto" type="url" name="url" id="url" placeholder="https://example.com"  pattern="https://.*" size="30"required> 
+                <input class="input-nombre_form input_producto" type="text" placeholder="Nombre del producto" onkeyup="mostrar_nombre(this.value)" data-nombre-producto>
+                <input class="input_producto" type="number" placeholder="Precio" onkeyup="mostrar_precio(this.value)" data-precio-producto>
                 <input class="input_producto" type="text" placeholder="Descripción">
-                <button class="btn-administrador_form input_producto" type="submit">Agregar Producto</button>
+                <button id="crear_new_producto" class="btn-administrador_form input_producto" type="submit" data-form-btn>Agregar Producto</button>
                 
                 
             </form>
-            
-        <div class="contenedor">
+              
             <!--PRODUCTO Nº 1-->
-            <div class="contenedor-producto">
+             <div class="contenedor">
+
+             
+             <div class="contenedor-producto" data-producto>
+                
                 <div class="producto-ind">
-                    <img src="img/iconos-logos/picture_photo_image_icon_131252.png" alt="">
+                    <img id="img_foto" src="img/iconos-logos/picture_photo_image_icon_131252.png" alt="">
                     <p>Ver producto</p>
                     
                 </div>
-                <div class="contenedor-nombre-producto"> 
-                    <p>Nombre Producto</p>
+                <div id="contenedor-nombre-producto" class="contenedor-nombre-producto"> 
+                    <p>Nombre</p>
                 </div>
-                <div class="contenedor-precio-producto"> 
-                    <p>$9999</p>
+                <div id="contenedor-precio-producto" class="contenedor-precio-producto"> 
+                    <p>Precio</p>
                 </div>
                 <div class="contenedor-cerrar_form-administrador">
                     <button id="cerrar_admin" type="button" class="cerrar_form-administrador" onclick="cerrar_admin(this)">cancelar</button>
                 </div>
-                
             </div>
+             
+        </div>
             
         </div>
         </div>
@@ -71,6 +76,8 @@
     </div>
     </section>
     
-    <script src="javaScript/administrador.js"></script>
-</body>
+    <script src="javaScript/new_producto.js"></script>
+    
+    <!--<script src="javaScript/administrador.js"></script> --> 
+</body> 
 </html>

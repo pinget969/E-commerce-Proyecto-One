@@ -19,7 +19,7 @@
 .input_producto {
     border-radius: 5px;
     border: 1px solid #6d83c8;
-    color: white;
+     
 }
 .contenedor-producto{
     display: flex;
@@ -35,9 +35,11 @@
     width: 70%;
     height: 210px;
     margin: auto;
+     
 }
 .producto-ind img{
-    width: 78%;
+    width: 80%;
+    padding: 10px;
 }
 .contenedor-nombre-producto{
     justify-content: center;
