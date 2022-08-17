@@ -1,7 +1,7 @@
 import { productosServices } from "../service/producto.servi.js";
 console.log(productosServices);
-const crearNuevaLinea = (nombre, precio, id) =>{
-    console.log(id)
+const crearNuevaLinea = (categoria, nombre, precio, id) =>{
+    console.log(categoria,"  ", nombre, "   ", precio)
     const linea = document.createElement("div");
     const contenido = `<div class="contenedor">
     <div class="contenedor-producto" data-producto>
@@ -30,12 +30,15 @@ const crearNuevaLinea = (nombre, precio, id) =>{
         }).catch((err) => alert("error"));
     })
 //const btn = linea.querySelector()
+ 
     return linea;
 };
-const contenidoNuevo = document.querySelector("[data-contenedoreitor]")
+
+//Recorriendo api
 productosServices.listaProductos().then((data) => {
     data.forEach((producto) => {
-        const nuevaLinea = crearNuevaLinea(producto.nombre, producto.precio, producto.id);
+        const nuevaLinea = crearNuevaLinea(producto.categoria, producto.nombre, producto.precio, producto.id);
+        const contenidoNuevo = document.querySelector(`[data-${producto.categoria}]`) //asignacion de categoria
         contenidoNuevo.appendChild(nuevaLinea);
     });
 })

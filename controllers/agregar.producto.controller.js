@@ -9,6 +9,6 @@ formulario.addEventListener("submit", (evento) =>{
     const precio = document.querySelector("[data-precio-producto]").value;
 
     productosServices.crearProducto(categoria, img_url, nombre, precio).then(() =>{
-        window.location.href = "/completado.html"
+        window.location.href = "/producto-completado.html"
     }).catch((err) => console.log(err)) 
 })

@@ -50,3 +50,9 @@ const createProducto =  (evento) =>{
 };
 
 btn.addEventListener('click', createProducto);
+
+
+
+function btn_salir(){
+    window.location.href = "index.html";
+}

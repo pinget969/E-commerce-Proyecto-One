@@ -4,6 +4,8 @@ const close = document.getElementById('close');
 const entrar = document.getElementById('entrar');  /* Configurar ingreso */
 const usuario = document.getElementById('usuario');
 
+
+
 const usuario_0 = "usuario_123"
 const contraseña_0 = "pass_123"
 
@@ -50,12 +52,12 @@ function ingresar(){
 };
 
 function mantener_ingreso(){
+    if(localStorage.getItem('login')){
     const confirmar = JSON.parse(localStorage.getItem('login'));
-    console.log(confirmar.logeado);
     if(confirmar.logeado == true){
         sesion_on();
-
     }
+}
 }
 function sesion_on(){
     const li_cerrar_sesion = document.getElementById('cerrar_sesion');
@@ -64,7 +66,6 @@ function sesion_on(){
     const contraseña_incorrecta =document.getElementById('contraseña-incorrecta_span');
     usuario_incorrecto.classList.replace('usuario_correcto', 'usuario_incorrecto');
         contraseña_incorrecta.classList.replace('contraseña_correcta','contraseña_incorrecta');
-        alert("ingreso correcto");
         modal_container.classList.remove('show');
         open.classList.add('btn-login-none');
 
@@ -79,6 +80,7 @@ function sesion_on(){
 
         li_new_producto.classList.add('new_producto_show');
         li_cerrar_sesion.classList.add('cerrar_sesion_show');
+
 }
 
 // HACIA ADMINISTRADOR

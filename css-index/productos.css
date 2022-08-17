@@ -12,6 +12,7 @@
     max-width: 1200px;
     margin: auto;
     /*overflow: hidden; */
+    /*justify-content: flex-start */
 }
 
 .contenedor-producto{
@@ -47,4 +48,7 @@
     display: flex;
     margin: 5px 0px;
     
+}
+.btn_eliminar-producto{
+    display: none;
 }

@@ -44,7 +44,7 @@ formulario.addEventListener("submit", (evento)=>{
 
     console.log("categoria", categoria, " url", img_url,"nombre", nombre,"precio", precio);
     productosServices.actualizarProducto(categoria, img_url, nombre, precio, id).then(()=>{
-        window.location.href = "edicion_completada.html";
+        //window.location.href = "edicion_completada.html";
     })
 
 });

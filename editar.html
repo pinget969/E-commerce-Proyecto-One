@@ -21,7 +21,15 @@
         <div class="contenedor_form-input-agregar-producto">
             
             <form class="form-input-agregar-producto" action="" enctype="multipart/form-data" data-form> 
-                <input class="input_producto" type="text" placeholder="Categoria" data-categoria>
+                <p>
+                    <label for="favoriteOnly">Selecciona la categoria:</label>
+                     <select class="input_producto" name="favoriteOnly" id="favoriteOnly" data-categoria>
+                       <option>Peluches</option>
+                       <option>pelotas</option>
+                       <option>correas</option>
+                       <option>Chalecos</option>
+                     </select>
+                   </p>
                 
                 <input type="file" name="archivo" id="foto" onchange="vista_preliminar(event)">
                 

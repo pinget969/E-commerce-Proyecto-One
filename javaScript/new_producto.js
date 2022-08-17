@@ -9,13 +9,17 @@ let vista_preliminar = (event)=>{
     };
     leer_img.readAsDataURL(event.target.files[0]);
 };
-
+const modal_container = document.getElementById('modal_container');
 function mostrar_nombre(valor){
     document.getElementById("contenedor-nombre-producto").innerHTML=valor;
 }
 function mostrar_precio(valor){
     document.getElementById("contenedor-precio-producto").innerHTML=valor;
 }
+
 function cerrar_admin(){
     location.href = "index.html";
+}
+function abrir_admin(){
+    window.location.href = "administrador.html"
 }

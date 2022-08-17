@@ -1,73 +1,270 @@
 {
   "productos": [
     {
-      "categoria": "Peluches",
-      "nombre": "JOMXX",
+      "categoria": "peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "JOMXX-peluches",
       "precio": "4444",
       "id": "c3e2f62e-0293-40a0-84ac-e760da57eded"
     },
     {
-      "categoria": "cate--1",
+      "categoria": "pelotas",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
       "nombre": "nombre-1",
       "precio": "1111",
       "id": "de26ac7e-1064-4fbd-951a-caec9633c085"
     },
     {
-      "categoria": "cat-3",
+      "categoria": "pelotas",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
       "nombre": "nombre-3",
       "precio": "3333",
       "id": "6724fe62-0a8d-4dfb-af46-e709ad2cae1f"
     },
     {
-      "categoria": "cat-4",
+      "categoria": "correas",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "nombre-4",
+      "nombre": "peluche-4",
       "precio": "4444",
       "id": "d4c24121-64c4-43b3-b54e-05b0249e9fde"
     },
     {
-      "categoria": "cat-159159",
+      "categoria": "correas",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
       "nombre": "nombre-159",
       "precio": "159159",
       "id": "56cfc82c-67c9-4455-8af3-02f1e3e56677"
     },
     {
-      "categoria": "cat-7",
+      "categoria": "correas",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
       "nombre": "nombre-7",
       "precio": "7777",
       "id": "b5a9837f-b1ea-4a87-9c0e-1dda8383e9c3"
     },
     {
-      "categoria": "cat-10",
+      "categoria": "chalecos",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
       "nombre": "nombre-10",
       "precio": "101010",
       "id": "631ec90f-07a1-42af-98b4-de0c5ce653b5"
     },
     {
-      "categoria": "cat-12",
+      "categoria": "chalecos",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
       "nombre": "nombre-12",
       "precio": "12012012",
       "id": "f6b2afc0-0f82-4787-90dd-91b648615665"
     },
     {
-      "categoria": "cat-9",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "nombre-9",
-      "precio": "999999",
-      "id": "f023bb52-5130-487b-99dd-b4653703f1dd"
-    },
-    {
-      "categoria": "",
+      "categoria": "pelotas",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
       "nombre": "desconocido",
       "precio": "0000",
       "id": "b380d23e-7dff-43e7-8590-0eda2ac821f3"
+    },
+    {
+      "categoria": "pelotas",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "pelotas123",
+      "precio": "123",
+      "id": "e35feb86-61cf-4044-a897-d241d6308077"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "peluche-roto-1",
+      "precio": "11111",
+      "id": "38fca7b7-ff81-4561-8929-420da5cfc039"
+    },
+    {
+      "categoria": "Chalecos",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "chaleco-roto-1",
+      "precio": "1222",
+      "id": "f0b8e3b8-4117-496a-b084-41f34eb561b2"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "pelo",
+      "precio": "123",
+      "id": "78bb7abb-320f-4ae9-8cb5-0b9eb4f2acf2"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "pelo123",
+      "precio": "33333",
+      "id": "ab07bcba-3ed3-4115-9ab9-87e34a54417d"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "pelo-asd",
+      "precio": "9999",
+      "id": "6ea70ca5-ce38-4fbf-96c1-2a022524cf54"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "pelu-beorrador",
+      "precio": "121222",
+      "id": "92d32a20-3359-4b0a-871e-efa38d055777"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "peluche",
+      "precio": "5555",
+      "id": "977a11c5-6df5-4308-87d1-9ad7bdb04fea"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "ac25aa2b-197a-45c9-b279-d080058a5ac1"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "e4f22e77-fec3-4761-a37c-a6181a319ff1"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "peluchee",
+      "precio": "3333",
+      "id": "1686aded-8948-47a5-a1ab-6df7194979df"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "pelota-222",
+      "precio": "2222",
+      "id": "7103d335-becc-4cd4-8c38-209c41109054"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "correa- copada",
+      "precio": "9888",
+      "id": "b6abcaae-c150-4957-a2d7-30deb40c9942"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "correa-p",
+      "precio": "1222",
+      "id": "51bd67cd-5cb3-4ed3-993f-3afd69aa65e5"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "correa-k",
+      "precio": "5555",
+      "id": "a29cf986-777b-4afe-9e77-3cc13f854ce2"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "pelota-s",
+      "precio": "555",
+      "id": "93583520-c368-46dc-a081-d17079986928"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "correa-f",
+      "precio": "444",
+      "id": "191d7439-d974-4c14-b39a-b5c77132bfc3"
+    },
+    {
+      "categoria": "pelotas",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "pelo-55",
+      "precio": "555",
+      "id": "19c3cf92-c74b-46d6-8784-bac4dcd70c43"
+    },
+    {
+      "categoria": "pelotas",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "pelo-55",
+      "precio": "444",
+      "id": "ccb07d12-0c01-46c3-9707-769fc2156fba"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "30c5dd86-cbee-4679-82fc-37b5f258f004"
+    },
+    {
+      "categoria": "correas",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "correa-55",
+      "precio": "555",
+      "id": "75c0320c-4a3c-4f01-9028-a2b3a32a2d65"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "4f6801ce-62d8-45b8-8cc7-5ea22e445c9e"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "e403db35-2edd-4126-a93e-01c6377d12a6"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "e017b5b3-fba0-4156-b682-174d5c296c1a"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "3a24d86d-3fb7-4796-8922-76b4b976e097"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "203eecff-0c68-4345-ad86-98a5d9c9a2f6"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "2d8ef78f-e88c-4495-87a8-da8577d3141e"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "d0fbfa71-71f3-4b57-8771-3fac71b147f1"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "",
+      "precio": "",
+      "id": "9e810151-16d9-4bd6-a6e1-af534b1a35a9"
     }
   ]
 }
