@@ -38,21 +38,15 @@ const createProducto =  (evento) =>{
                         <p>${precio}</p>
                     </div>
                     <div class="contenedor-cerrar_form-administrador">
-                        <button id="cerrar_admin" type="button" class="cerrar_form-administrador" onclick="cerrar_admin(this)">cancelar</button>
+                        <button id="cerrar_admin" type="button" class="cerrar_form-administrador" data-cerrar>cancelaar</button>
                     </div>`
     producto.innerHTML = content;
 
     list.appendChild(producto);
 
-    
     console.log(content);
     //console.log(evento);
     
 };
 
 btn.addEventListener('click', createProducto);
-
-
-function cerrar_admin(){
-    location.href = "index.html";
-}

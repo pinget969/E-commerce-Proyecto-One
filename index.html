@@ -105,20 +105,25 @@ Rodapié
     <!-- PRODUCTO Peluches-->
     <section >
         <h1 class="titulo_producto">Peluches</h1>
-        <div id="contenedor" class="contenedor">
+        <div id="contenedor" class="contenedor" data-contenedoreitor>
             <!--PRODUCTO Nº 1-->
             <div class="contenedor-producto">
+                <div class="modificacion">
+                    <button>eliminar</button>
+                    <button><a href="/editar.html">editar</a></button>
+                </div>
                 <div class="producto-ind">
                     <img src="img/producto-pato2.jpg" alt="">
                     <p>Ver producto</p>
-                    
                 </div>
                 <div class="contenedor-nombre-producto"> 
                     <p>Pelota Negra</p>
+                    
                 </div>
                 <div class="contenedor-precio-producto"> 
                     <p>$520</p>
                 </div>
+                
             </div>
 
             <!--PRODUCTO Nº 2-->
@@ -508,6 +513,7 @@ Rodapié
             <!--iconos?-->
         </div>
     </footer>
+    <script type="module" src="/controllers/producto.controller.js"></script>
     <script src="javaScript/login.js"></script>
     <script src="javaScript/filtro.js"></script>
     <script src="javaScript/administrador.js"></script>

@@ -7,6 +7,8 @@ const usuario = document.getElementById('usuario');
 const usuario_0 = "usuario_123"
 const contraseña_0 = "pass_123"
 
+mantener_ingreso ();
+
 open.addEventListener('click', () => {
     modal_container.classList.add('show');  
 });
@@ -14,10 +16,6 @@ close.addEventListener('click', () => {
     modal_container.classList.remove('show');
 });
 
-/*entrar.addEventListener('click', () => {
-
-    ingresar();
-}); */
 
 function ingresar(){
     const usuario = document.getElementById('usuario'); /* input usuario*/
@@ -25,13 +23,8 @@ function ingresar(){
     const contraseña = document.getElementById('contraseña');
     const contraseña_1 = document.getElementById('contraseña').value;
     const open = document.getElementById('open');
-
-    const li_cerrar_sesion = document.getElementById('cerrar_sesion');
-    const li_new_producto = document.getElementById('new_producto')
-    
     const usuario_incorrecto = document.getElementById('usuario-incorrecta_span');
     const contraseña_incorrecta =document.getElementById('contraseña-incorrecta_span');
-
     if(usuario.value != usuario_0){
         usuario_incorrecto.classList.replace('usuario_incorrecto', 'usuario_correcto'); 
     }else{
@@ -43,7 +36,33 @@ function ingresar(){
         contraseña_incorrecta.classList.replace('contraseña_correcta','contraseña_incorrecta');
     };
     if(usuario.value== usuario_0 && contraseña.value==contraseña_0){
-        usuario_incorrecto.classList.replace('usuario_correcto', 'usuario_incorrecto');
+        sesion_on();
+
+    } ;
+    //creacion objeto almacenador
+    const logeado = true
+    const loginAlm = {
+        usuario_1,
+        contraseña_1,
+        logeado,
+    }
+    localStorage.setItem('login', JSON.stringify(loginAlm)); //almacenando Usuario y contraseña
+};
+
+function mantener_ingreso(){
+    const confirmar = JSON.parse(localStorage.getItem('login'));
+    console.log(confirmar.logeado);
+    if(confirmar.logeado == true){
+        sesion_on();
+
+    }
+}
+function sesion_on(){
+    const li_cerrar_sesion = document.getElementById('cerrar_sesion');
+    const li_new_producto = document.getElementById('new_producto')
+    const usuario_incorrecto = document.getElementById('usuario-incorrecta_span');
+    const contraseña_incorrecta =document.getElementById('contraseña-incorrecta_span');
+    usuario_incorrecto.classList.replace('usuario_correcto', 'usuario_incorrecto');
         contraseña_incorrecta.classList.replace('contraseña_correcta','contraseña_incorrecta');
         alert("ingreso correcto");
         modal_container.classList.remove('show');
@@ -60,17 +79,7 @@ function ingresar(){
 
         li_new_producto.classList.add('new_producto_show');
         li_cerrar_sesion.classList.add('cerrar_sesion_show');
-
-    } ;
-    //creacion objeto almacenador
-    const loginAlm = {
-        usuario_1,
-        contraseña_1
-    }
-    localStorage.setItem('login', JSON.stringify(loginAlm)); //almacenando Usuario y contraseña
-};
-
-
+}
 
 // HACIA ADMINISTRADOR
 function menu_agregar_producto(){

@@ -1,0 +1,73 @@
+{
+  "productos": [
+    {
+      "categoria": "Peluches",
+      "nombre": "JOMXX",
+      "precio": "4444",
+      "id": "c3e2f62e-0293-40a0-84ac-e760da57eded"
+    },
+    {
+      "categoria": "cate--1",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "nombre-1",
+      "precio": "1111",
+      "id": "de26ac7e-1064-4fbd-951a-caec9633c085"
+    },
+    {
+      "categoria": "cat-3",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "nombre-3",
+      "precio": "3333",
+      "id": "6724fe62-0a8d-4dfb-af46-e709ad2cae1f"
+    },
+    {
+      "categoria": "cat-4",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "nombre-4",
+      "precio": "4444",
+      "id": "d4c24121-64c4-43b3-b54e-05b0249e9fde"
+    },
+    {
+      "categoria": "cat-159159",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "nombre-159",
+      "precio": "159159",
+      "id": "56cfc82c-67c9-4455-8af3-02f1e3e56677"
+    },
+    {
+      "categoria": "cat-7",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "nombre-7",
+      "precio": "7777",
+      "id": "b5a9837f-b1ea-4a87-9c0e-1dda8383e9c3"
+    },
+    {
+      "categoria": "cat-10",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "nombre-10",
+      "precio": "101010",
+      "id": "631ec90f-07a1-42af-98b4-de0c5ce653b5"
+    },
+    {
+      "categoria": "cat-12",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "nombre-12",
+      "precio": "12012012",
+      "id": "f6b2afc0-0f82-4787-90dd-91b648615665"
+    },
+    {
+      "categoria": "cat-9",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "nombre-9",
+      "precio": "999999",
+      "id": "f023bb52-5130-487b-99dd-b4653703f1dd"
+    },
+    {
+      "categoria": "",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "desconocido",
+      "precio": "0000",
+      "id": "b380d23e-7dff-43e7-8590-0eda2ac821f3"
+    }
+  ]
+}

@@ -17,7 +17,7 @@
         <div>
             
         
-        <h1 class="titulo-form-input-agregar-producto">Agragar nuevo producto</h1>
+        <h1 class="titulo-form-input-agregar-producto">Editar producto</h1>
         <div class="contenedor_form-input-agregar-producto">
             
             <form class="form-input-agregar-producto" action="" enctype="multipart/form-data" data-form> 
@@ -46,7 +46,7 @@
                         <p>Precio</p>
                     </div>
                     <div class="contenedor-cerrar_form-administrador">
-                        <button id="cerrar_admin" type="button" class="cerrar_form-administrador" onclick="cerrar_admin(this)">cancelar</button>
+                        <button id="cerrar_admin" type="button" class="cerrar_form-administrador" data-cerrar>cancelar</button>
                     </div>
                 </div>
             </div>
@@ -68,13 +68,9 @@
         
     </div>
     </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
-    <script src="javaScript/new_producto.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="module" src="controllers/agregar.producto.controller.js"></script>
     <!--<script type="module" src="../Proyecto e-commerce/controllers/productos.controller.js"></script> -->
     <!--<script type="module" src="controllers/productos.controller.js"></script>--> 
     <!--<script src="javaScript/administrador.js"></script> --> 
+    <script type="module" src="controllers/actualizar.producto.js"></script>
 </body> 
 </html>
