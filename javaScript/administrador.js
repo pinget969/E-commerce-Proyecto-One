@@ -12,7 +12,7 @@ const createProducto =  (evento) =>{
     const precio = input_precio.value;
     const nombre = input_nombre.value;
 
-    //const producto = document.querySelector('[data-producto]'); //selecion total
+    
     const list = document.querySelector("[data-list]");
     const producto_nombre = document.createElement('div');
     producto_nombre.classList.add('contenedor-nombre-producto');

@@ -31,6 +31,8 @@ const actualizarProducto = (categoria, img_url, nombre, precio, id) =>{
 .then((respuesta) => respuesta)
 .catch((err) => console.log(err));
 };
+
+
 export const productosServices ={
     listaProductos,
     crearProducto,

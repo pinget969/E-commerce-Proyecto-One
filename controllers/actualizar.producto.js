@@ -16,10 +16,9 @@ const obtenerInformacion = ()=>{
     const img_url = document.querySelector("[data-url]");
     const nombre = document.querySelector("[data-nombre-producto]");
     const precio = document.querySelector("[data-precio-producto]");
+    
 
-    console.log(nombre);
     productosServices.detalleProducto(id).then(productos => {
-        console.log(productos.categoria);
         img_url.value = productos.img_url;
         categoria.value = productos.categoria;
         nombre.value = productos.nombre;
@@ -44,7 +43,7 @@ formulario.addEventListener("submit", (evento)=>{
 
     console.log("categoria", categoria, " url", img_url,"nombre", nombre,"precio", precio);
     productosServices.actualizarProducto(categoria, img_url, nombre, precio, id).then(()=>{
-        //window.location.href = "edicion_completada.html";
+        window.location.href = "index.html";
     })
 
 });
@@ -52,7 +51,6 @@ formulario.addEventListener("submit", (evento)=>{
 
 
 const btn = document.querySelector("[data-cerrar]");
-    console.log(btn);
 
     btn.addEventListener("click", ()=>{
         window.location.href = "index.html";

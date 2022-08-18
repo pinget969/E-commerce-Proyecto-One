@@ -122,20 +122,6 @@
     {
       "categoria": "Peluches",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "",
-      "id": "ac25aa2b-197a-45c9-b279-d080058a5ac1"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "",
-      "id": "e4f22e77-fec3-4761-a37c-a6181a319ff1"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
       "nombre": "peluchee",
       "precio": "3333",
       "id": "1686aded-8948-47a5-a1ab-6df7194979df"
@@ -241,30 +227,44 @@
     {
       "categoria": "Peluches",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "",
+      "nombre": "pelu-asd",
+      "precio": "1111",
       "id": "203eecff-0c68-4345-ad86-98a5d9c9a2f6"
     },
     {
       "categoria": "Peluches",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
       "nombre": "",
-      "precio": "",
+      "precio": "2222",
       "id": "2d8ef78f-e88c-4495-87a8-da8577d3141e"
     },
     {
-      "categoria": "Peluches",
+      "categoria": "correas",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "",
-      "id": "d0fbfa71-71f3-4b57-8771-3fac71b147f1"
+      "nombre": "correa.yu",
+      "precio": "888",
+      "id": "15560951-b209-4ef7-8734-42799035fbd8"
+    },
+    {
+      "categoria": "correas",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "correa-2",
+      "precio": "99",
+      "id": "b528de60-c4e1-44ac-88d8-7f8f48132387"
     },
     {
       "categoria": "Peluches",
       "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "",
-      "id": "9e810151-16d9-4bd6-a6e1-af534b1a35a9"
+      "nombre": "pelu-borrar",
+      "precio": "4444",
+      "id": "06b6e500-4ccd-41e3-b409-43742b2f8ae3"
+    },
+    {
+      "categoria": "Peluches",
+      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "nombre": "pelu-borrar",
+      "precio": "4444",
+      "id": "72b747fe-dc3a-4549-aeb4-e948773761a3"
     }
   ]
 }

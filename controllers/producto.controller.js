@@ -1,13 +1,31 @@
 import { productosServices } from "../service/producto.servi.js";
 console.log(productosServices);
+
+//inicio cambiar clase
+let miClase1 = "btn_ocultar-eliminar"
+let miClase_editar = "btn_ocultar-editar"
 const crearNuevaLinea = (categoria, nombre, precio, id) =>{
     console.log(categoria,"  ", nombre, "   ", precio)
+    if(localStorage.getItem('login')){
+        const confirmar = JSON.parse(localStorage.getItem('login'));
+        if(confirmar.logeado == true){
+            miClase1 = "btn_mostrar-eliminar"
+            miClase_editar = "btn_mostrar-editar"
+            console.log(miClase1)
+        }else{
+            miClase1 = "btn_ocultar-eliminar"
+            miClase_editar = "btn_ocultar-editar"
+            console.log(miClase1)
+        }
+    }
+
+//Fin cambiar clase
     const linea = document.createElement("div");
     const contenido = `<div class="contenedor">
     <div class="contenedor-producto" data-producto>
         <div class="modificacion">
-        <button id="${id}">eliminar</button>
-        <button><a href="/editar.html?id=${id}">editar</a></button>
+        <button id="${id}" class=${miClase1}>eliminar</button>
+        <button><a href="/editar.html?id=${id}"  class=${miClase_editar}>editar</a></button>
         </div>
         <div class="producto-ind">
             <img id="img_foto" src="img/iconos-logos/picture_photo_image_icon_131252.png" alt="">
@@ -21,6 +39,7 @@ const crearNuevaLinea = (categoria, nombre, precio, id) =>{
         </div>
     </div>
 </div>`;
+    
     linea.innerHTML = contenido;
     const btn = linea.querySelector("button");
     btn.addEventListener("click", ()=>{
@@ -33,6 +52,9 @@ const crearNuevaLinea = (categoria, nombre, precio, id) =>{
  
     return linea;
 };
+
+
+
 
 //Recorriendo api
 productosServices.listaProductos().then((data) => {

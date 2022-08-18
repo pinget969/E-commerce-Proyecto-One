@@ -49,6 +49,21 @@
     margin: 5px 0px;
     
 }
-.btn_eliminar-producto{
+/* Solo logeado */
+.btn_ocultar-eliminar{
     display: none;
+    
+}
+.btn_mostrar-eliminar{
+    display: show;
+    color: rgb(0, 4, 255);
+}
+
+.btn_ocultar-editar{
+    display: none;
+}
+
+.btn_mostrar-editar{
+    display: show;
+    color: rgb(0, 4, 255);
 }
