@@ -1,270 +1,256 @@
 {
   "productos": [
     {
-      "categoria": "peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "JOMXX-peluches",
-      "precio": "4444",
-      "id": "c3e2f62e-0293-40a0-84ac-e760da57eded"
-    },
-    {
       "categoria": "pelotas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://images1.tiendanimal.es/g/juguete-perros-gatos-pelotas-blandas-deportiva.jpg",
       "nombre": "nombre-1",
       "precio": "1111",
       "id": "de26ac7e-1064-4fbd-951a-caec9633c085"
     },
     {
-      "categoria": "pelotas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "nombre-3",
-      "precio": "3333",
-      "id": "6724fe62-0a8d-4dfb-af46-e709ad2cae1f"
-    },
-    {
-      "categoria": "correas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "peluche-4",
-      "precio": "4444",
+      "categoria": "Chalecos",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/1346955386736024d6280dc721c89b5fa659a1b1a39883ef4d0897a9be51d21629936.png",
+      "nombre": "chaleco-Turquesa",
+      "precio": "4500",
       "id": "d4c24121-64c4-43b3-b54e-05b0249e9fde"
     },
     {
-      "categoria": "correas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "nombre-159",
-      "precio": "159159",
+      "categoria": "pelotas",
+      "img_url": "https://http2.mlstatic.com/D_NQ_NP_852024-MLA44100774947_112020-O.webp",
+      "nombre": "Deportiva",
+      "precio": "950",
       "id": "56cfc82c-67c9-4455-8af3-02f1e3e56677"
     },
     {
-      "categoria": "correas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "nombre-7",
-      "precio": "7777",
-      "id": "b5a9837f-b1ea-4a87-9c0e-1dda8383e9c3"
-    },
-    {
-      "categoria": "chalecos",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "nombre-10",
-      "precio": "101010",
-      "id": "631ec90f-07a1-42af-98b4-de0c5ce653b5"
-    },
-    {
-      "categoria": "chalecos",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "nombre-12",
-      "precio": "12012012",
-      "id": "f6b2afc0-0f82-4787-90dd-91b648615665"
-    },
-    {
       "categoria": "pelotas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://http2.mlstatic.com/D_NQ_NP_605655-MLA33058360718_122019-O.webp",
       "nombre": "desconocido",
       "precio": "0000",
       "id": "b380d23e-7dff-43e7-8590-0eda2ac821f3"
     },
     {
       "categoria": "pelotas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://imagenes.elpais.com/resizer/4Fu6kFM6HfLVjVoiDJyYgsJB7AU=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/IR4YLPHJF5E3FMJYIIDOAY73OI.png",
       "nombre": "pelotas123",
       "precio": "123",
       "id": "e35feb86-61cf-4044-a897-d241d6308077"
     },
     {
       "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://http2.mlstatic.com/D_NQ_NP_683649-MLA49499836123_032022-O.webp",
       "nombre": "peluche-roto-1",
       "precio": "11111",
       "id": "38fca7b7-ff81-4561-8929-420da5cfc039"
     },
     {
       "categoria": "Chalecos",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "chaleco-roto-1",
-      "precio": "1222",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/45eb22164ce77a6590bdb5e3b5b708b67132ea0ecc7605bd640a70a47070820929936.png",
+      "nombre": "chaleco-violeta",
+      "precio": "2300",
       "id": "f0b8e3b8-4117-496a-b084-41f34eb561b2"
     },
     {
       "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://http2.mlstatic.com/D_NQ_NP_763746-MLA50249723295_062022-O.webp",
       "nombre": "pelo",
       "precio": "123",
       "id": "78bb7abb-320f-4ae9-8cb5-0b9eb4f2acf2"
     },
     {
       "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://http2.mlstatic.com/D_NQ_NP_755224-MLA49796326934_042022-O.webp",
       "nombre": "pelo123",
       "precio": "33333",
       "id": "ab07bcba-3ed3-4115-9ab9-87e34a54417d"
     },
     {
       "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://centropet.com/wp-content/uploads/2022/04/D_616826-MLA32254514672_092019-F.jpg",
       "nombre": "pelo-asd",
       "precio": "9999",
       "id": "6ea70ca5-ce38-4fbf-96c1-2a022524cf54"
     },
     {
       "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://centropet.com/wp-content/uploads/2022/04/D_950399-MLA32107579868_092019-F.jpg",
       "nombre": "pelu-beorrador",
       "precio": "121222",
       "id": "92d32a20-3359-4b0a-871e-efa38d055777"
     },
     {
       "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://centropet.com/wp-content/uploads/2022/04/D_675517-MLA32139539956_092019-F.jpg",
       "nombre": "peluche",
       "precio": "5555",
       "id": "977a11c5-6df5-4308-87d1-9ad7bdb04fea"
     },
     {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "categoria": "pelotas",
+      "img_url": "https://m.media-amazon.com/images/I/71C7Ifnn3LL._AC_UL320_.jpg",
       "nombre": "peluchee",
-      "precio": "3333",
+      "precio": "3303",
       "id": "1686aded-8948-47a5-a1ab-6df7194979df"
     },
     {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "pelota-222",
-      "precio": "2222",
-      "id": "7103d335-becc-4cd4-8c38-209c41109054"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "correa- copada",
-      "precio": "9888",
-      "id": "b6abcaae-c150-4957-a2d7-30deb40c9942"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "correa-p",
-      "precio": "1222",
-      "id": "51bd67cd-5cb3-4ed3-993f-3afd69aa65e5"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "correa-k",
-      "precio": "5555",
-      "id": "a29cf986-777b-4afe-9e77-3cc13f854ce2"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "pelota-s",
-      "precio": "555",
-      "id": "93583520-c368-46dc-a081-d17079986928"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "correa-f",
-      "precio": "444",
-      "id": "191d7439-d974-4c14-b39a-b5c77132bfc3"
-    },
-    {
       "categoria": "pelotas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
       "nombre": "pelo-55",
       "precio": "555",
       "id": "19c3cf92-c74b-46d6-8784-bac4dcd70c43"
     },
     {
       "categoria": "pelotas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
+      "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUjN4iqx6IQK0F26kOhS9hiD8iPNllqu9kwQ&usqp=CAU",
       "nombre": "pelo-55",
       "precio": "444",
       "id": "ccb07d12-0c01-46c3-9707-769fc2156fba"
     },
     {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "",
-      "id": "30c5dd86-cbee-4679-82fc-37b5f258f004"
-    },
-    {
-      "categoria": "correas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "correa-55",
-      "precio": "555",
+      "categoria": "Chalecos",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/d4dbb37d673055afc2e7d59d3db7826bc8c18e59ff99b222703b07e1c0fa59cc29936.jpeg",
+      "nombre": "Chaleco-gastado",
+      "precio": "3700",
       "id": "75c0320c-4a3c-4f01-9028-a2b3a32a2d65"
     },
     {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "",
-      "id": "4f6801ce-62d8-45b8-8cc7-5ea22e445c9e"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "",
-      "id": "e403db35-2edd-4126-a93e-01c6377d12a6"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "",
-      "id": "e017b5b3-fba0-4156-b682-174d5c296c1a"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "",
-      "id": "3a24d86d-3fb7-4796-8922-76b4b976e097"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "pelu-asd",
-      "precio": "1111",
-      "id": "203eecff-0c68-4345-ad86-98a5d9c9a2f6"
-    },
-    {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "",
-      "precio": "2222",
-      "id": "2d8ef78f-e88c-4495-87a8-da8577d3141e"
-    },
-    {
       "categoria": "correas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "correa.yu",
-      "precio": "888",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/b3b987d60c11a6731530195f1bd8d7f9545289eb583b57a9f9a8fecbc573622e29936.jpeg",
+      "nombre": "Correa Palta",
+      "precio": "3200",
       "id": "15560951-b209-4ef7-8734-42799035fbd8"
     },
     {
       "categoria": "correas",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "correa-2",
-      "precio": "99",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/7172532ac53b02014250cadc035cf504709c815e1eb403e197bb4991609e16c229936.jpeg",
+      "nombre": "correa huesos",
+      "precio": "3100",
       "id": "b528de60-c4e1-44ac-88d8-7f8f48132387"
     },
     {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "pelu-borrar",
-      "precio": "4444",
-      "id": "06b6e500-4ccd-41e3-b409-43742b2f8ae3"
+      "categoria": "pelotas",
+      "img_url": "https://http2.mlstatic.com/D_NQ_NP_787670-MLA40069187470_122019-O.webp",
+      "nombre": "Pelota-dientes",
+      "precio": "1594",
+      "id": "83c816e6-57dd-49cb-bb6d-3b6e1fca4c21"
     },
     {
-      "categoria": "Peluches",
-      "img_url": "https://pinget969.github.io/encriptador-v1/",
-      "nombre": "pelu-borrar",
-      "precio": "4444",
-      "id": "72b747fe-dc3a-4549-aeb4-e948773761a3"
+      "categoria": "chalecos",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/0904eb0cc2a0b5171dd9157c920e241f1adba4026cc0eb876861cf100393f63029936.png",
+      "nombre": "chaleco-nublado",
+      "precio": "2500",
+      "id": "453c42e1-9df6-4a58-b881-1005c59b72fa"
+    },
+    {
+      "categoria": "chalecos",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/a67c712c1b80185d0e31e0102ccffde005453e7c38f7fc852b846454b5bb67e029936.png",
+      "nombre": "Chaleco-Amarillo",
+      "precio": "2500",
+      "id": "db968514-0750-4ab3-ab49-596712414147"
+    },
+    {
+      "categoria": "chalecos",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/47125165c1e5ef78e29a479d61165ca2aa0b83323d8f32ba8200a3bbbd3489a329936.png",
+      "nombre": "Deportivo-Azul",
+      "precio": "3600",
+      "id": "1d8bec78-f80f-4310-8a14-e99254b85529"
+    },
+    {
+      "categoria": "chalecos",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/6ca5e3c8f458c5e969019275b93635961da7873b04fcb23f816efe859788a76229936.jpeg",
+      "nombre": "Deportivo-Gris",
+      "precio": "3600",
+      "id": "c470fa23-76b7-4eb4-8231-d5f01fe87e90"
+    },
+    {
+      "categoria": "correas",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/3300cf9ccf14113ba4d6a302a0afb5878e68ba59ac36ef281bd4d9071517b52f29936.jpeg",
+      "nombre": "Correa-Rosa",
+      "precio": "3100",
+      "id": "6fd5d893-6df4-48d4-9750-e567605be4a6"
+    },
+    {
+      "categoria": "correas",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/a6005b35fe65a080780e1a0a2f7ab6212522726aa12a82dba2fd883eef44d2ec29936.png",
+      "nombre": "Correa violeta",
+      "precio": "3400",
+      "id": "62d43e6e-c981-43a1-a970-cbb4e49094af"
+    },
+    {
+      "categoria": "correas",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/09877930fdf52b51200e9282ab0cd592144bb921c20f98fbbf702e61dd6f84f929936.jpeg",
+      "nombre": "Correa Negra",
+      "precio": "3100",
+      "id": "ba1e0db7-d8d4-4e8c-aca0-a877b32ad900"
+    },
+    {
+      "categoria": "correas",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/f2230a5922cf8cb7fed7a264e99717821e7bb5887fe5e75281cc2dc7be63b50a29936.png",
+      "nombre": "Correa Batic",
+      "precio": "3500",
+      "id": "1e49860b-d34e-4616-b448-64d0ceaf3818"
+    },
+    {
+      "categoria": "correas",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/da07b9d7c9a31d7ab6c76c7b5f0eaf7d32860b1a0e3edbe157567c4a9665012729936.jpeg",
+      "nombre": "Camuflada azul",
+      "precio": "3500",
+      "id": "c51597fa-e327-4f85-a490-9c29153fb227"
+    },
+    {
+      "categoria": "correas",
+      "img_url": "https://d22fxaf9t8d39k.cloudfront.net/354a2eedc2a4517164b885b803f0deb60eaa46c801479f561789fa8e4b4765a229936.jpeg",
+      "nombre": "Animal Print",
+      "precio": "3500",
+      "id": "63135446-03a9-43a9-bd00-b2443fc1a706"
+    },
+    {
+      "categoria": "peluches",
+      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
+      "nombre": "",
+      "precio": "",
+      "id": "75a43024-44bf-471e-b40a-f9f7179be138"
+    },
+    {
+      "categoria": "peluches",
+      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
+      "nombre": "",
+      "precio": "",
+      "id": "78a91cc8-6730-4ce8-95e6-4978fa251e37"
+    },
+    {
+      "categoria": "peluches",
+      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
+      "nombre": "",
+      "precio": "",
+      "id": "5367fd55-303a-4a1c-b481-e2c6e9ed6d2d"
+    },
+    {
+      "categoria": "peluches",
+      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
+      "nombre": "",
+      "precio": "",
+      "id": "0f34051b-8bb8-4990-9abd-e640572d1d7d"
+    },
+    {
+      "categoria": "peluches",
+      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
+      "nombre": "",
+      "precio": "",
+      "id": "57dc6c56-26d7-44da-857d-a5a5972b0a34"
+    },
+    {
+      "categoria": "peluches",
+      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
+      "nombre": "",
+      "precio": "",
+      "id": "4cb54936-3695-475a-82c8-97e45cd0dc62"
+    },
+    {
+      "categoria": "peluches",
+      "img_url": "https://m.media-amazon.com/images/I/71C7Ifnn3LL._AC_UL320_.jpg",
+      "nombre": "",
+      "precio": "",
+      "id": "433fcfb4-2568-4356-80d6-c7f9afc4cfd5"
     }
   ]
 }

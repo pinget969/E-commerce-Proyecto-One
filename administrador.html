@@ -29,16 +29,18 @@
                 <p>
                     <label for="favoriteOnly">Selecciona la categoria:</label>
                     <select class="input_producto" name="favoriteOnly" id="favoriteOnly" data-categoria>
-                    <option>Peluches</option>
+                    <option>peluches</option>
                     <option>pelotas</option>
                     <option>correas</option>
-                    <option>Chalecos</option>
+                    <option>chalecos</option>
                     </select>
                 </p>
                 
-                <input type="file" name="archivo" id="foto" onchange="vista_preliminar(event)">
+                <!--<input type="file" name="archivo" id="foto" onchange="vista_preliminar(event)"> Mantenimiento 1. --> 
                 
-                <input class="input_producto" type="url" name="url" id="url" placeholder="https://example.com"  pattern="https://.*" size="30"required data-url>
+                <input  id="url_foto" class="input_producto" type="url" name="url" id="url" placeholder="https://example.com"  pattern="https://.*" size="30" data-url>
+                
+                <p id="btn_url">Confirmar Imagen</p>
                 <input class="input-nombre_form input_producto" type="text" placeholder="Nombre del producto" onkeyup="mostrar_nombre(this.value)" data-nombre-producto>
                 <input class="input_producto" type="number" placeholder="Precio" onkeyup="mostrar_precio(this.value)" data-precio-producto>
                 <input class="input_producto" type="text" placeholder="Descripción">
@@ -49,9 +51,13 @@
             <div class="contenedor" data-contenido>
                 <div class="contenedor-producto" data-producto>
                     <div class="producto-ind">
-                        <img id="img_foto" src="img/iconos-logos/picture_photo_image_icon_131252.png" alt="">
+                        <div id="contenedor-img_uro-producto">
+                        
+                        </div>
+                       <!--<img id="img_foto" src="img/iconos-logos/picture_photo_image_icon_131252.png" alt=""> -->
                         <p>Ver producto</p>
                     </div>
+                    
                     <div id="contenedor-nombre-producto" class="contenedor-nombre-producto"> 
                     <p>Nombre</p>
                     </div>
