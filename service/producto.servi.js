@@ -20,6 +20,7 @@ const detalleProducto = (id) =>{
     return fetch(`http://localhost:3000/productos/${id}`).then((respuesta) => respuesta.json());
 }
 
+
 const actualizarProducto = (categoria, img_url, nombre, precio, id) =>{
     return fetch(`http://localhost:3000/productos/${id}`,{
     method: "PUT",

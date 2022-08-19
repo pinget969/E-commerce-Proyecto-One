@@ -14,40 +14,35 @@ Mantenimiento. */
 
 const url_foto = document.getElementById("url_foto");
 
-const modal_container = document.getElementById('modal_container');
+const modal_container = document.getElementById('modal_container'); // quitado?- revisar
 function mostrar_nombre(valor){
     document.getElementById("contenedor-nombre-producto").innerHTML=valor;
 }
 function mostrar_precio(valor){
     document.getElementById("contenedor-precio-producto").innerHTML=valor;
 }
-
+//imagen previsualizacion
 const btn_url = document.getElementById('btn_url')
-
-const info_url = JSON.parse(localStorage.getItem('img'));
-
-const url_comp = info_url.cont_url // get final
-
+const info_url = JSON.parse(localStorage.getItem('img_2'));
+const url_comp = info_url.dato_img // get final
 document.querySelector("[data-url]").value= url_comp;
 
+const contenedor_img = document.createElement("img");
+const contenido_img = `<img id="img_foto" src="${url_comp}" alt="">`;
+contenedor_img.innerHTML=contenido_img;
 
+document.getElementById("contenedor-img_uro-producto").innerHTML=contenido_img;
 
-    const contenedor_img = document.createElement("img");
-    const contenido_img = `<img id="img_foto" src="${url_comp}" alt="">`;
-    contenedor_img.innerHTML=contenido_img;
-    document.getElementById("contenedor-img_uro-producto").innerHTML=contenido_img;
 
 btn_url.addEventListener("click", (evento)=>{
     const url_foto = document.getElementById("url_foto");
-    const cont_url= url_foto.value
-    console.log(url_foto);
-    const imgAlm = {
-        cont_url,
-        };
-
-        localStorage.setItem('img', JSON.stringify(imgAlm));
-        window.location.href = "administrador.html";
-        
+    const dato_img= url_foto.value
+    //nueva url img
+    const contenedor_url= {
+        dato_img,
+    }
+    localStorage.setItem('img_2', JSON.stringify(contenedor_url));
+    window.location.href = "administrador.html";
 });
 
 function mostrar_url(valor){

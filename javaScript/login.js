@@ -51,7 +51,7 @@ function ingresar(){
             logeado,
         }
         localStorage.setItem('login', JSON.stringify(loginAlm)); //almacenando Usuario y contraseña
-
+        localStorage.setItem('img_2', JSON.stringify(contenedor_url)); //enviado para el editor img
         sesion_on();
         window.location.href = "index.html";
     } ;
@@ -97,7 +97,13 @@ function sesion_on(){
 }
  
 // HACIA ADMINISTRADOR
+    //asignando url img predeterminada
+const dato_img = "img/iconos-logos/picture_photo_image_icon_131252.png"
+const contenedor_url= {
+    dato_img,
+}
 function menu_agregar_producto(){
+    localStorage.setItem('img_2', JSON.stringify(contenedor_url));
     location.href = "administrador.html";
 }
 function cerrar_sesicion_login(){

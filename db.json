@@ -86,9 +86,9 @@
     },
     {
       "categoria": "pelotas",
-      "img_url": "https://m.media-amazon.com/images/I/71C7Ifnn3LL._AC_UL320_.jpg",
-      "nombre": "peluchee",
-      "precio": "3303",
+      "img_url": "https://http2.mlstatic.com/D_NQ_NP_787670-MLA40069187470_122019-O.webp",
+      "nombre": "pelota borrador dientes",
+      "precio": "3005",
       "id": "1686aded-8948-47a5-a1ab-6df7194979df"
     },
     {
@@ -128,9 +128,9 @@
     },
     {
       "categoria": "pelotas",
-      "img_url": "https://http2.mlstatic.com/D_NQ_NP_787670-MLA40069187470_122019-O.webp",
-      "nombre": "Pelota-dientes",
-      "precio": "1594",
+      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
+      "nombre": "doble pelota",
+      "precio": "2400",
       "id": "83c816e6-57dd-49cb-bb6d-3b6e1fca4c21"
     },
     {
@@ -204,53 +204,25 @@
       "id": "63135446-03a9-43a9-bd00-b2443fc1a706"
     },
     {
-      "categoria": "peluches",
-      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
-      "nombre": "",
-      "precio": "",
-      "id": "75a43024-44bf-471e-b40a-f9f7179be138"
-    },
-    {
-      "categoria": "peluches",
-      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
-      "nombre": "",
-      "precio": "",
-      "id": "78a91cc8-6730-4ce8-95e6-4978fa251e37"
-    },
-    {
-      "categoria": "peluches",
-      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
-      "nombre": "",
-      "precio": "",
-      "id": "5367fd55-303a-4a1c-b481-e2c6e9ed6d2d"
-    },
-    {
-      "categoria": "peluches",
-      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
-      "nombre": "",
-      "precio": "",
-      "id": "0f34051b-8bb8-4990-9abd-e640572d1d7d"
-    },
-    {
-      "categoria": "peluches",
-      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
-      "nombre": "",
-      "precio": "",
-      "id": "57dc6c56-26d7-44da-857d-a5a5972b0a34"
-    },
-    {
-      "categoria": "peluches",
-      "img_url": "https://m.media-amazon.com/images/I/61yNZsTkbiL._AC_SX466_.jpg",
-      "nombre": "",
-      "precio": "",
-      "id": "4cb54936-3695-475a-82c8-97e45cd0dc62"
-    },
-    {
-      "categoria": "peluches",
+      "categoria": "pelotas",
       "img_url": "https://m.media-amazon.com/images/I/71C7Ifnn3LL._AC_UL320_.jpg",
-      "nombre": "",
-      "precio": "",
-      "id": "433fcfb4-2568-4356-80d6-c7f9afc4cfd5"
+      "nombre": "borrador prueba",
+      "precio": "55",
+      "id": "50fd3233-416f-4220-b80f-b1c9b214c65a"
+    },
+    {
+      "categoria": "pelotas",
+      "img_url": "https://http2.mlstatic.com/D_NQ_NP_787670-MLA40069187470_122019-O.webp",
+      "nombre": "modificacion mordisco",
+      "precio": "5001",
+      "id": "01bfa969-851d-4d66-ae83-1d0cff58f6e3"
+    },
+    {
+      "categoria": "pelotas",
+      "img_url": "https://http2.mlstatic.com/D_NQ_NP_787670-MLA40069187470_122019-O.webp",
+      "nombre": "moridisco prueba",
+      "precio": "444",
+      "id": "fa6bdc1f-73ee-4175-b0cf-1f46eaf59f39"
     }
   ]
 }
