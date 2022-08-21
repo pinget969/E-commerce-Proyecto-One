@@ -1,7 +1,7 @@
 
-const listaProductos = () => fetch("http://localhost:3000/productos").then((respuesta) => respuesta.json());
+const listaProductos = () => fetch("https://github.com/pinget969/E-commerce-Proyecto-One/blob/main/db.json/productos").then((respuesta) => respuesta.json());
 const crearProducto = (categoria, img_url, nombre, precio) => {
-    return fetch("http://localhost:3000/productos", {
+    return fetch("https://github.com/pinget969/E-commerce-Proyecto-One/blob/main/db.json/productos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -11,18 +11,19 @@ const crearProducto = (categoria, img_url, nombre, precio) => {
 };
 
 const eliminarProducto = (id) =>{
-    return fetch(`http://localhost:3000/productos/${id}`,{
+    return fetch(`https://github.com/pinget969/E-commerce-Proyecto-One/blob/main/db.json/productos/${id}`,{
         method: "DELETE",
     })
 }
 
 const detalleProducto = (id) =>{
-    return fetch(`http://localhost:3000/productos/${id}`).then((respuesta) => respuesta.json());
+    return fetch(`https://github.com/pinget969/E-commerce-Proyecto-One/blob/main/db.json/productos/${id}`).then((respuesta) => respuesta.json());
+    
 }
 
 
 const actualizarProducto = (categoria, img_url, nombre, precio, id) =>{
-    return fetch(`http://localhost:3000/productos/${id}`,{
+    return fetch(`https://github.com/pinget969/E-commerce-Proyecto-One/blob/main/db.json/productos/${id}`,{
     method: "PUT",
      headers:{
         "Content-Type": "application/json",
