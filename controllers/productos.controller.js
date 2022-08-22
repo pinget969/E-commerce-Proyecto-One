@@ -1,3 +1,4 @@
+/*
 import { productosServices } from "../service/producto.servi.js";
 console.log(productosServices);
 const crearNuevaLinea = (nombre, precio) =>{
@@ -32,3 +33,4 @@ productosServices.listaProductos().then((data) => {
     });
 })
 .catch((error) => alert("error1"));
+*/

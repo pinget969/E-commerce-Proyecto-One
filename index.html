@@ -38,9 +38,9 @@ Rodapié
                 <button id="new_producto" class="new_producto" onclick="menu_agregar_producto(this)"></button>
                 <li><a href="#" id="open" class="btn-login ">Login</a></li>
                 <li class="li-search_header"><input type="search" placeholder="¿Qué desea buscar?"></li>
-                <li> <a href="">Productos</a></li> 
-                <li class="oferta"><a href="">Oferta</a></li>
-                <li><a href="">Carrito</a></li> <!--Icono carrito-->
+                <li class="producto_header btn_header"> <a href="">Productos</a></li> 
+                <li class="oferta_header btn_header"><a href="">Oferta</a></li>
+                <li class="carrito_header btn_header"><a href="">Carrito</a></li> <!--Icono carrito-->
             </ul>
         </div>
         <div class="contenedor-img-header">
@@ -106,14 +106,18 @@ Rodapié
     <main>
     <section >
         <h1 class="titulo_producto">Peluches</h1>
+        <div class="macro_contenedor">
         <div id="contenedor" class="contenedor" data-peluches>
             <!--PRODUCTO Nº 1-->
         </div>
+    </div>
     </section>
     <!-- PRODUCTO pelotas-->
     <section >
         <h1 class="titulo_producto">Pelotas</h1>
+        <div class="macro_contenedor">
         <div class="contenedor" data-pelotas>
+        </div>
         </div>
     </section>
     <!-- PRODUCTO Chalecos-->
@@ -174,6 +178,7 @@ Rodapié
             <!--iconos?-->
         </div>
     </footer>
+    <script type="module" src="controllers/descripcion.producto.js"></script>
     <script type="module" src="/controllers/producto.controller.js"></script>
     <script src="javaScript/login.js"></script>
     <script src="javaScript/filtro.js"></script>

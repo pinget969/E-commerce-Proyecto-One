@@ -65,13 +65,6 @@
     },
     {
       "categoria": "Peluches",
-      "img_url": "https://centropet.com/wp-content/uploads/2022/04/D_616826-MLA32254514672_092019-F.jpg",
-      "nombre": "pelo-asd",
-      "precio": "9999",
-      "id": "6ea70ca5-ce38-4fbf-96c1-2a022524cf54"
-    },
-    {
-      "categoria": "Peluches",
       "img_url": "https://centropet.com/wp-content/uploads/2022/04/D_950399-MLA32107579868_092019-F.jpg",
       "nombre": "pelu-beorrador",
       "precio": "121222",
@@ -218,11 +211,11 @@
       "id": "01bfa969-851d-4d66-ae83-1d0cff58f6e3"
     },
     {
-      "categoria": "pelotas",
-      "img_url": "https://http2.mlstatic.com/D_NQ_NP_787670-MLA40069187470_122019-O.webp",
-      "nombre": "moridisco prueba",
-      "precio": "444",
-      "id": "fa6bdc1f-73ee-4175-b0cf-1f46eaf59f39"
+      "categoria": "peluches",
+      "img_url": "https://puppis.vteximg.com.br/arquivos/ids/171757-1000-1000/233023.jpg?v=637304602991500000",
+      "nombre": "Peluche Petmate Puercoespin",
+      "precio": "2500",
+      "id": "1fbd27d7-bc5f-4592-bbc0-7b1ede31d299"
     }
   ]
 }

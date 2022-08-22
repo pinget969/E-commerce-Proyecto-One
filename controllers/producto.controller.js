@@ -27,17 +27,17 @@ const crearNuevaLinea = (categoria, img_url, nombre, precio, id) =>{
     <div class="contenedor-producto" data-producto>
         <div class="modificacion">
         <button id="${id}" class=${miClase1}>eliminar</button>
-        <button><a href="/editar.html?id=${id}"  class=${miClase_editar}>editar</a></button>
+        <button class=${miClase_editar}><a href="/editar.html?id=${id}">editar</a></button>
         </div>
         <div class="producto-ind">
             <img id="img_foto" src="${img_url}"  alt="">
-            <p>Ver producto</p>
+            <p class="ver_producto"><a href="/editar.html?id=${id}">ver producto</a></p>
         </div>
         <div id="contenedor-nombre-producto" class="contenedor-nombre-producto"> 
-        <p>${nombre}</p>
+        <p class="nombre_producto">${nombre}</p>
         </div>
         <div id="contenedor-precio-producto" class="contenedor-precio-producto"> 
-            <p> $ ${precio}</p>
+            <p class="precio_producto"> $ ${precio}</p>
         </div>
     </div>
 </div>`;

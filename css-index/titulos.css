@@ -1,6 +1,9 @@
 .titulo_producto{
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 900;
     text-align: center;
     margin: 20px;
+    color: #3c3c3c;
+    line-height: 27px;
+    letter-spacing: -.5px;
 }
