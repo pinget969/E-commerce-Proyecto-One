@@ -53,6 +53,10 @@ const obtenerInformacion = ()=>{
     const img_url = document.querySelector("[data-url]");
     const nombre = document.querySelector("[data-nombre-producto]");
     const precio = document.querySelector("[data-precio-producto]");
+
+
+    const descripcion = document.querySelector("[data-descripcion-producto]");
+
     console.log(img_url);
 
 
@@ -61,6 +65,8 @@ const obtenerInformacion = ()=>{
         categoria.value = productos.categoria;
         nombre.value = productos.nombre;
         precio.value = productos.precio;
+        descripcion.value = productos.descripcion; 
+        console.log(descripcion.value);
         console.log(productos.img_url);
     });
 
@@ -79,7 +85,9 @@ formulario.addEventListener("submit", (evento)=>{
     const img_url = document.querySelector("[data-url]").value;
     const nombre = document.querySelector("[data-nombre-producto]").value;
     const precio = document.querySelector("[data-precio-producto]").value;
-    productosServices.actualizarProducto(categoria, img_url, nombre, precio, id).then(()=>{
+    const descripcion = document.querySelector("[data-descripcion-producto]").value;
+    
+    productosServices.actualizarProducto(categoria, img_url, nombre, precio, descripcion, id).then(()=>{
         window.location.href = "index.html";
     })
 

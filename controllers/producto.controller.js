@@ -31,7 +31,7 @@ const crearNuevaLinea = (categoria, img_url, nombre, precio, id) =>{
         </div>
         <div class="producto-ind">
             <img id="img_foto" src="${img_url}"  alt="">
-            <p class="ver_producto"><a href="/editar.html?id=${id}">ver producto</a></p>
+            <p ><a class="ver_producto" href="/descripcion.html?id=${id}">ver producto</a></p>
         </div>
         <div id="contenedor-nombre-producto" class="contenedor-nombre-producto"> 
         <p class="nombre_producto">${nombre}</p>

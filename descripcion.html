@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>descripcion</title>
+    <link rel="stylesheet" href="css-administrador/reset.css">
+    <link rel="stylesheet" href="css-administrador/form.css">
+    <link rel="stylesheet" href="css-administrador/style.css">
+    <link rel="stylesheet" href="css-administrador/new-producto.css">
+    <link rel="stylesheet" href="css-responsive/admin-resp.css">
+    <link rel="stylesheet" href="css-administrador/footer-admin.css">
+    <link rel="stylesheet" href="css-contenedor/contenedor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>Menu Administrador</title>
 </head>
-<body>
+<body class="body_administrador">
+    <section>
+        <div>  
+        
+        <h1 class="titulo-form-input-agregar-producto">Descripción producto</h1>
+        
+        
+        <div class="contenedor_descripcion">
+            
+            <div class="contenedor_texto_descripcion">
+                <h2 id="descripcion_nombre" class="desc_nombre-producto">Aqui te va el nombre </h2 data-descripcion_nombre>
+                <p id="numero_precio" class="desc_precio">precio</p>
+                <p>Medios de pago</p>
+                <p>Formas de entrega</p>
+                <p>Descripción: </p>
+                <p id="contenido_descripcion" class="desc_descripcion">descripcion</p>
+            </div>
+          
+        <!--PRODUCTO Nº 1-->
+        
+            <div class="contenedor" data-contenido>
+                
+                
+                
+                <a href="index.html"></a>
+                <div class="contenedor-img" data-producto>
+                    <br>
+                    <div class="producto-ind_img">
+                        
+                        <div id="contenedor-img_uro-producto" class="cont_contenedor_img">
+                            
+                        </div>
+                        <div class="cont_btn">
+                            <button class="desc_btn">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor_btn-salir">
+                <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" color="#ee332c" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                </svg></a>
+            </div>
+        </div>
+        </div>
+        <div class="contenedor-img_perrita_form">
+            
+            <img class="img-perrita_form" src="img/perrita_form-3.png" alt=""> <!--'https://www.freepik.es/fotos/collie'>Foto de collie creado por freepik - www.freepik.es-->
+            <footer>
+                <div class="contenedor_footer">
+                    <a class="titulo-footer" href="https://www.linkedin.com/in/nelson-pinget-05a427206/">Desarrollado por Pinget Nelson</a>
+                    <p class="fecha-footer">2022</p>
+                    <!--iconos?-->
+                </div>
+            </footer>
+            <img class="img-perrita_form" src="img/perrita_form-2.png" alt=""> <!--'https://www.freepik.es/fotos/perro'>Foto de perro creado por master1305 - www.freepik.es-->
+        </div>
+        
+    </div>
+    </section>
+    <!--<script type="module" src="../Proyecto e-commerce/controllers/productos.controller.js"></script> -->
+    <!--<script type="module" src="controllers/productos.controller.js"></script>--> 
+    <!--<script src="javaScript/administrador.js"></script> --> 
+    <!--<script src="javaScript/editar_producto.js"></script> -->
+    <script type="module" src="controllers/descripcion.js"></script>
     
-</body>
+</body> 
 </html>

@@ -7,8 +7,9 @@ formulario.addEventListener("submit", (evento) =>{
     const img_url = document.querySelector("[data-url]").value;
     const nombre = document.querySelector("[data-nombre-producto]").value;
     const precio = document.querySelector("[data-precio-producto]").value;
+    const descripcion = document.querySelector("[data-descripcion-producto]").value;
 
-    productosServices.crearProducto(categoria, img_url, nombre, precio).then(() =>{
+    productosServices.crearProducto(categoria, img_url, nombre, precio, descripcion).then(() =>{
         window.location.href = "/producto-completado.html"
     }).catch((err) => console.log(err)) 
 })

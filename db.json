@@ -3,8 +3,9 @@
     {
       "categoria": "pelotas",
       "img_url": "https://images1.tiendanimal.es/g/juguete-perros-gatos-pelotas-blandas-deportiva.jpg",
-      "nombre": "nombre-1",
-      "precio": "1111",
+      "nombre": "Pelota basquet",
+      "precio": "650",
+      "descripcion": "Pelota juguete para perro. Clasica pelota de basquet. tamaño 5cm diametro.",
       "id": "de26ac7e-1064-4fbd-951a-caec9633c085"
     },
     {
@@ -19,6 +20,7 @@
       "img_url": "https://http2.mlstatic.com/D_NQ_NP_852024-MLA44100774947_112020-O.webp",
       "nombre": "Deportiva",
       "precio": "950",
+      "descripcion": "Pelota tipo deportiva clásica. Ideal para todo tipo de perros. 100% caucho.",
       "id": "56cfc82c-67c9-4455-8af3-02f1e3e56677"
     },
     {
@@ -39,7 +41,8 @@
       "categoria": "Peluches",
       "img_url": "https://http2.mlstatic.com/D_NQ_NP_683649-MLA49499836123_032022-O.webp",
       "nombre": "peluche-roto-1",
-      "precio": "11111",
+      "precio": "3200",
+      "descripcion": "Peluche elefante %100 algodón. ideal para niños +3 años.",
       "id": "38fca7b7-ff81-4561-8929-420da5cfc039"
     },
     {
@@ -61,6 +64,7 @@
       "img_url": "https://http2.mlstatic.com/D_NQ_NP_755224-MLA49796326934_042022-O.webp",
       "nombre": "pelo123",
       "precio": "33333",
+      "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae odit, qui quidem corrupti totam possimus illo. Magnam ut nesciunt, eum odit exercitationem, iure aliquam error nisi, deserunt a iste eveniet!",
       "id": "ab07bcba-3ed3-4115-9ab9-87e34a54417d"
     },
     {
@@ -68,6 +72,7 @@
       "img_url": "https://centropet.com/wp-content/uploads/2022/04/D_950399-MLA32107579868_092019-F.jpg",
       "nombre": "pelu-beorrador",
       "precio": "121222",
+      "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae odit, qui quidem corrupti totam possimus illo. Magnam ut nesciunt, eum odit exercitationem, iure aliquam error nisi, deserunt a iste eveniet!",
       "id": "92d32a20-3359-4b0a-871e-efa38d055777"
     },
     {
@@ -96,6 +101,7 @@
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUjN4iqx6IQK0F26kOhS9hiD8iPNllqu9kwQ&usqp=CAU",
       "nombre": "pelo-55",
       "precio": "444",
+      "descripcion": "undefined",
       "id": "ccb07d12-0c01-46c3-9707-769fc2156fba"
     },
     {
@@ -204,17 +210,11 @@
       "id": "50fd3233-416f-4220-b80f-b1c9b214c65a"
     },
     {
-      "categoria": "pelotas",
-      "img_url": "https://http2.mlstatic.com/D_NQ_NP_787670-MLA40069187470_122019-O.webp",
-      "nombre": "modificacion mordisco",
-      "precio": "5001",
-      "id": "01bfa969-851d-4d66-ae83-1d0cff58f6e3"
-    },
-    {
-      "categoria": "peluches",
+      "categoria": "Peluches",
       "img_url": "https://puppis.vteximg.com.br/arquivos/ids/171757-1000-1000/233023.jpg?v=637304602991500000",
       "nombre": "Peluche Petmate Puercoespin",
       "precio": "2500",
+      "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae odit, qui quidem corrupti totam possimus illo. Magnam ut nesciunt, eum odit exercitationem, iure aliquam error nisi, deserunt a iste eveniet!",
       "id": "1fbd27d7-bc5f-4592-bbc0-7b1ede31d299"
     }
   ]
